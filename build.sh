@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Create a virtual environment
+echo "Creating a virtual environment..."
+python3.9 -m venv venv
+source venv/bin/activate
+
 # Install the latest version of pip
 echo "Installing the latest version of pip..."
 python -m pip install --upgrade pip
