@@ -1,5 +1,12 @@
 #!/bin/bash
 
+echo "Debugging here ===============>>>>>>>>>>>>>>>>"
+
+echo "Creating a virtual environment..."
+echo python --version 
+echo pip --version 
+echo python3 --version 
+
 # Create a virtual environment
 echo "Creating a virtual environment..."
 python3.9 -m venv venv
