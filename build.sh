@@ -7,11 +7,11 @@ source venv/bin/activate
 
 # Install the latest version of pip
 echo "Installing the latest version of pip..."
-python -m pip install --upgrade pip
+python -m pip3 install --upgrade pip3
 
 # Build the project
 echo "Building the project..."
-python -m pip install -r requirements.txt
+python -m pip3 install -r requirements.txt
 
 # Make migrations
 echo "Making migrations..."
