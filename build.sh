@@ -3,9 +3,12 @@
 echo "Debugging here ===============>>>>>>>>>>>>>>>>"
 
 echo "Creating a virtual environment..."
-echo python --version 
+echo python --version
+python --version 
 echo pip --version 
+pip --version 
 echo python3 --version 
+python3 --version 
 
 # Create a virtual environment
 echo "Creating a virtual environment..."
