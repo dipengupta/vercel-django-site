@@ -117,7 +117,6 @@ USE_TZ = True
 
 '''
 trying this out now
-note: 194 static files copied to '/vercel/path0/staticfiles/static'
 '''
 #STATIC_URL = 'static/'
 STATIC_URL = '/staticfiles/static/'
