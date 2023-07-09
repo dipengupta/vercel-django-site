@@ -120,7 +120,7 @@ trying this out now
 note: 194 static files copied to '/vercel/path0/staticfiles/static'
 '''
 #STATIC_URL = 'static/'
-STATIC_URL = 'staticfiles/static/'
+STATIC_URL = '/vercel/path0/staticfiles/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
