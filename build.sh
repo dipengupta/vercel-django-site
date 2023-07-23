@@ -10,6 +10,15 @@ pip --version
 echo python3 --version 
 python3 --version 
 
+echo STATIC_URL $STATIC_URL 
+
+
+echo STATICFILES_DIRS $STATICFILES_DIRS 
+
+
+echo STATIC_ROOT $STATIC_ROOT 
+
+
 # Create a virtual environment
 echo "Creating a virtual environment..."
 python3.9 -m venv venv
