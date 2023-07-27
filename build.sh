@@ -43,3 +43,4 @@ python manage.py collectstatic --noinput --clear
 
 echo "Debugging here ===============>>>>>>>>>>>>>>>>"
 echo python manage.py diffsettings
+python manage.py diffsettings
