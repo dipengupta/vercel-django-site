@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Debugging here ===============>>>>>>>>>>>>>>>>"
+
 
 echo "Creating a virtual environment..."
 echo python --version
@@ -40,3 +40,6 @@ python manage.py migrate --noinput
 # Collect static files
 echo "Collecting static files..."
 python manage.py collectstatic --noinput --clear
+
+echo "Debugging here ===============>>>>>>>>>>>>>>>>"
+echo python manage.py diffsettings
